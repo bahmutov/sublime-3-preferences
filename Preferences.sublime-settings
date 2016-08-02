@@ -8,5 +8,13 @@
   "ensure_newline_at_eof_on_save": true,
   "trim_trailing_white_space_on_save": true,
   "highlight_modified_tabs": true,
-  "draw_white_space": "all"
+  "draw_white_space": "all",
+  "ignored_packages":
+  [
+    "Vintage"
+  ],
+  "rulers":
+  [
+    80
+  ]
 }
