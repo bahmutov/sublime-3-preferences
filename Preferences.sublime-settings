@@ -1,14 +1,21 @@
-// Settings in here override those in "Default/Preferences.sublime-settings",
-// and are overridden in turn by file type specific settings.
 {
+  "added_words":
+  [
+    "offline",
+    "Kubernetes",
+    "middleware",
+    "destructuring"
+  ],
+  "color_scheme": "Packages/Colorsublime - Themes/BlueDawn.tmTheme",
   "draw_centered": true,
-  "font_size": 16,
-  "tab_size": 2,
-  "translate_tabs_to_spaces": true,
-  "ensure_newline_at_eof_on_save": true,
-  "trim_trailing_white_space_on_save": true,
-  "highlight_modified_tabs": true,
   "draw_white_space": "all",
+  "ensure_newline_at_eof_on_save": true,
+  "font_options":
+  [
+    "gray_antialias"
+  ],
+  "font_size": 16,
+  "highlight_modified_tabs": true,
   "ignored_packages":
   [
     "Vintage"
@@ -16,5 +23,9 @@
   "rulers":
   [
     80
-  ]
+  ],
+  "spell_check": true,
+  "tab_size": 2,
+  "translate_tabs_to_spaces": true,
+  "trim_trailing_white_space_on_save": true
 }
